@@ -74,14 +74,40 @@ header {
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
+
+
 
 .hero-img img {
     width: 100%;
 }
 
 .hero-img, .hero-content {
-    border: 2px solid green;
+    /* border: 2px solid green; */
+    width: 40%;
 }
+
+.hero-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: rgba(21, 20, 20, 1);
+    margin-bottom: 24px;
+}
+
+.hero-content p{
+    font-size: 16px;
+    color: rgba(68, 67, 67, 1);
+    margin-bottom: 16px;
+}
+
+.hero-content ul li {
+    font-size: 16px;
+    color: rgba(68, 67, 67, 1);
+    margin-bottom: 16px;
+    margin-left: 25px;
+}
+
+
 
