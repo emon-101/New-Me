@@ -1,0 +1,67 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Universal Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* Shared Styles */
+
+.btn-primary {
+    color: rgba(0, 95, 172, 1);
+    background-color: rgba(255,255,255,1);
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    padding: 15px 35px;
+}
+
+
+/* Heading Section */
+header {
+    background: url("./images/banner/banner3.png");
+    height: 808px;
+    margin-bottom: 140px;
+}
+
+.banner-section{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+    padding-right: 180px;
+    /* border: 1px solid red; */
+}
+
+.banner-content {
+    max-width: 480px;
+    text-align: right;
+    /* border: 2px solid brown; */
+}
+
+.banner-content .banner-heading {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: 0;
+    color: rgba(255,255,255,1);
+    margin-bottom: 24px;
+}
+
+.banner-content p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0;
+    color: rgba(255,255,255,1);
+    margin-bottom: 32px;
+}
