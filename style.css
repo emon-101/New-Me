@@ -180,3 +180,46 @@ header {
     letter-spacing: 0;
     margin-bottom: 24px;
 }
+
+/* Footer section */
+footer {
+    background-color: rgba(21, 20, 20, 1);
+    color: rgba(255,255,255,1);
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content, .subscribe {
+    width: 40%;
+}
+
+.footer-content p, .footer-content h1 {
+    margin-bottom: 16px;
+}
+
+.social {
+    display: flex;
+    gap: 24px;
+}
+
+.subscribe input[type="email"] {
+    display: block;
+    margin: 16px 0;
+    padding: 12px 30px;
+    border: 1px solid rgba(255,255,255,1);
+    border-radius: 8px;
+    background: transparent;
+    color: rgba(255,255,255,1);
+    padding-right: 200px;
+}
+
+.subscribe h1 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.subscribe button {
+    background-color: rgba(0, 95, 172, 1);
+    color: rgba(255,255,255,1);
+}
