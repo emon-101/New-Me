@@ -65,3 +65,23 @@ header {
     color: rgba(255,255,255,1);
     margin-bottom: 32px;
 }
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+.hero-img img {
+    width: 100%;
+}
+
+.hero-img, .hero-content {
+    border: 2px solid green;
+}
+
