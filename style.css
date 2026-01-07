@@ -109,5 +109,47 @@ header {
     margin-left: 25px;
 }
 
+/* My plans Section */
+.plans {
+    width: 71%;
+    max-width: 1140px;
+    margin: 120px auto;
+}
 
+.plans h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(21, 20, 20, 1);
+    letter-spacing: 0;
+    margin-bottom: 50px;
+}
+
+.plans .plans-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.plans-card {
+    text-align: center;
+}
+
+.plans-card img {
+    width: 92px;
+    height: 92px;
+}
+
+.plans-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin: 16px 0;
+}
+
+.plans-card p {
+    font-weight: 500;
+    color: rgba(115, 114, 114, 1);
+}
 
