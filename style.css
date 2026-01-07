@@ -153,3 +153,30 @@ header {
     color: rgba(115, 114, 114, 1);
 }
 
+
+/* mindset section */
+
+.mindset {
+    background: linear-gradient(90.00deg, rgba(0, 95, 172, 1),rgba(0, 95, 172, 0) 100%), url("./images/watch.png");
+    background-repeat: no-repeat;
+    padding: 60px;
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+    background-position: center;
+    border-radius: 8px;
+}
+
+.mindset-content {
+    max-width: 60%;
+}
+
+.mindset-content h1 {
+    color: rgba(255,255,255,1);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0;
+    margin-bottom: 24px;
+}
